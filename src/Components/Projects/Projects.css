@@ -1,0 +1,78 @@
+.projects {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+.projects.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.btn-container{
+    text-align: center;
+    margin: 30px 0 30px 0; 
+}
+
+.container-heading{
+    margin: 30px 0 30px 0;
+    padding: 30px;
+}
+
+.container-heading >h1{
+    margin-bottom: 20px;
+}
+
+.btn-container .btn{
+    border: 1px solid black;
+    padding: 10px;
+    background: transparent;
+    font-weight: bold;
+    box-shadow: 3px 3px 0px black;
+}
+
+.btn-container  .btn:hover{
+    background-color: rgb(2, 130, 153);
+    color: #fff;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+  
+  .project-icon{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    transition: all 1.5s;
+  }
+
+.project-icon:hover{
+
+    transform: scale(1.2);
+}
+
+.description{
+    line-height: 40px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.about-project{
+    border: 1px solid grey;
+    max-width: 45%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+  .about-project > div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.projects-container{
+    display: flex;
+    justify-content: space-around;
+  }

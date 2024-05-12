@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.about-me-content{
+    max-width: 50%;
+    color: #cccccc;
+}
+
+.para{
+    line-height: 40px;
+    font-size: 20px;
+    color: #cccccc;;
+}
+
+.who-am-i{
+    font-size: 80px;
+    text-align: center;
+}
+
+.learn-more-btn{
+    border: 1px solid #fff;
+    background: transparent;
+    color : #fff;
+    padding: 15px;
+    box-shadow: 3px 3px 0px #fff;
+    /* border-radius: 10px; */
+    font-weight: bold;
+
+}
+
+.learn-more-btn:hover{
+    background-color: rgb(2, 130, 153);
+    color: #000;
+
+}
+
+.self-container{
+    position: relative;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

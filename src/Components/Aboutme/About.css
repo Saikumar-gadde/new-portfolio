@@ -1,0 +1,17 @@
+#my-pic{
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px black ;
+}
+
+.image-container > h2{
+    margin: 30px 0 30px 0;
+}
+
+.description-container{
+    max-width: 50%;
+    margin-top: 105px;
+}
+.description-container p{
+    text-align: justify;
+}
