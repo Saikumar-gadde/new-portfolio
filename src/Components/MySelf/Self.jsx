@@ -29,7 +29,6 @@ const Self = () => {
             build all types of websites, I can help you build innovative digital
             products from sctrach.
           </p>
-          <button className="learn-more-btn">Learn More</button>
         </div>
       </div>
     </div>
